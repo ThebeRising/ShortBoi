@@ -17,5 +17,5 @@ Logo.prototype = Object.create(Phaser.Sprite.prototype);
 module.exports = Logo.prototype.constructor = Logo;
 
 Logo.prototype.update = function () {
-  this.angle += 0.1;
+  this.angle -= 0.1;
 };
