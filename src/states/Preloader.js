@@ -25,5 +25,5 @@ exports.create = function (game) {
   //  Don't forget to `require` them first. Example:
   // game.myPlugin = game.plugins.add(MyPlugin/*, ... parameters ... */);
 
-  game.state.start('Game');
+  game.state.start('Menu');
 };

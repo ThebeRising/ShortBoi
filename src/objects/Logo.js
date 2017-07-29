@@ -15,7 +15,8 @@ function Logo(game, x, y) {
 }
 Logo.prototype = Object.create(Phaser.Sprite.prototype);
 module.exports = Logo.prototype.constructor = Logo;
+Logo.prototype.speed = 1;
 
 Logo.prototype.update = function () {
-  this.angle += 0.02;
+  this.angle += 0.5 * this.speed;
 };

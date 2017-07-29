@@ -6,8 +6,8 @@
  */
 
 //  The game canvas dimensions.
-exports.width = 640;
-exports.height = 480;
+exports.width = 800;
+exports.height = 600;
 
 //  Choose the rendering method. Available values are:
 //  * WEBGL: Use WebGL rendering;
