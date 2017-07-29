@@ -63,7 +63,7 @@ exports.create = function (game) {
   dude.animations.add('right', [5, 6, 7, 8], 10, true);
 
   star = game.add.existing(new Star(game,game.world.width/2,29));
-
+  game.physics.arcade.enable(star);
   //  Our controls.
   cursors = game.input.keyboard.createCursorKeys();
 

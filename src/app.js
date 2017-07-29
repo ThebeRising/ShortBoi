@@ -6,7 +6,7 @@
  */
 
 'use strict';
-
+//
 //  Import configuration and game states.
 var config = require('./config');
 var states = require('./states');

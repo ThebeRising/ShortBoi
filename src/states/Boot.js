@@ -5,7 +5,7 @@
  * The first state of the game. Adjust the game appearance, number of input
  * pointers, screen orientation handling etc. using this game state.
  */
-
+//
 'use strict';
 
 var assets = require('../assets');
